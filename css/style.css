@@ -116,14 +116,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: 45vh;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: -2.5rem;
+    margin-top: -5rem;
 
 }
 .section-about-box{
