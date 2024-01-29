@@ -1,0 +1,21 @@
+@import url(/css/navbar.css);
+@import url(/css/);
+
+:root{
+    --main-bg-color: #121217;
+    --secondry-bg-color: #18181D;
+    --text-main-color: #ffff;
+    --text-secondry-color: orange;
+}
+body, a{
+    background-color: var(--main-bg-color);
+    color: var(--text-main-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
