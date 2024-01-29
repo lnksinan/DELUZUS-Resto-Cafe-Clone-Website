@@ -7,8 +7,14 @@
     --text-main-color: #ffff;
     --text-secondry-color: orange;
 }
-body, a{
+body{
     background-color: var(--main-bg-color);
+    background-image: url(/images/wide1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a{
     color: var(--text-main-color);
 }
 

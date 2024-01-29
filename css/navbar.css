@@ -21,6 +21,7 @@
     color: var(--text-secondry-color);
 }
 .nav-wrapper-logo p{
+    color: var(--text-main-color);
     font-size: 8px;
     letter-spacing: 0.4rem;
     text-transform: uppercase;

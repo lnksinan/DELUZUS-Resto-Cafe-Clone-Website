@@ -17,6 +17,7 @@
     gap: 1rem;
 }
 .header-tittle h1{
+    color: var(--text-main-color);
     font-size: 52px;
     letter-spacing: 1rem;
     text-transform: uppercase;
