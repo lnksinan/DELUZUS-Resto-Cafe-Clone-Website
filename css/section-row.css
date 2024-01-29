@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     background-color: var(--secondry-bg-color);
-    height: 55vh;
     width: auto;
+    height: 40vh;
 }
 .container{
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-top: -8rem;
+    margin-top: -15rem;
 }
 .section-row{
     display: flex;
