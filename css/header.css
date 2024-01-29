@@ -1,0 +1,63 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    gap: 1rem;
+}
+.header-tittle h1{
+    font-size: 52px;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+}
+.header-text p{
+    color: var(--text-secondry-color);
+    font-size: 20px;
+    opacity: 0.5;
+}
+.header-btn{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+.book-btn a{
+    border: 3px solid var(--text-main-color);
+    padding: 0.8rem 1.5rem;
+    border-radius: 24px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu-btn a{
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    background-color: var(--text-secondry-color);
+    padding: 0.8rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.book-btn a:hover{
+    background-color: var(--text-main-color);
+    color: black;
+    transition: 0.2s ease all;
+
+}
+.menu-btn a:hover{
+    background-color: var(--text-main-color);
+    color: black;
+    transition: 0.2s ease all;
+}
