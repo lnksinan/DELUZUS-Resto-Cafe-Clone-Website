@@ -1,0 +1,92 @@
+.section-welcome{
+    background-color: var(--secondry-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 70vh;
+
+}
+.welcome-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 7rem;
+    
+}
+.welcome-row-col-left{
+    background-image: url(/images/bg-side-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200%;
+    height: 590px;
+}
+
+.welcome-row-col-left img{
+    
+    
+}
+.welcome-row-col-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+.welcome-tittle{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.welcome-tittle h1{
+    color: #ffff;
+    font-size: 24px;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+.welcome-tittle p{
+    color: var(--text-secondry-color);
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+}
+.welcome-tittle .tiny-border{
+    margin-top: 1.3rem;
+    width: 7%;
+    height: 2px;
+    background-color: var(--text-secondry-color);
+}
+.welcome-text{
+    display: inline-block;
+    font-size: 15px;
+    color: #999999;
+    line-height: 1.5rem;
+    padding-right: 15rem;
+}
+.welcome-read-btn{
+    margin-top: 2.6rem;
+    padding-left: 0.rem;
+}
+.welcome-read-btn a{
+    font-size: 13px;
+    color: #ffff;
+    background-color: var(--text-secondry-color);
+    padding: 0.8rem 1.7rem;
+    border-radius: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.welcome-read-btn a:hover{
+    background-color: #ffff;
+    color: var(--secondry-bg-color);
+    transition: 0.5s ease all;
+}
