@@ -1,0 +1,37 @@
+.section-menu{
+    margin-top: 5rem;
+}
+.section-menu-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+.section-menu-tittle h1{
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #ffff;
+}
+.section-menu-tittle p{
+    color: var(--text-secondry-color);
+    font-size: 20px;
+}
+.section-menu-tittle .section-border{
+    margin-top: 1.3rem;
+    width: 7%;
+    height: 2px;
+    background-color: var(--text-secondry-color);
+}
+.section-menu-cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    column-gap: 2.5rem;
+}
+.card-img img{
+    width: 265px;
+    height: 265px;
+}

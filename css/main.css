@@ -2,6 +2,7 @@
 @import url(/css/header.css);
 @import url(/css/section-row.css);
 @import url(/css/section-welcome.css);
+@import url(/css/section-menu.css);
 
 :root{
     --main-bg-color: #121217;
