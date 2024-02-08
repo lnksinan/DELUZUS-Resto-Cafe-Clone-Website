@@ -52,12 +52,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
 }
 
-.menu-list-row-left, .menu-list-row-right{
+.menu-list-row-up, .menu-list-row-mid{
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 2.5rem;
+    width: 65%;
 }
 .col-img img{
     border-radius: 240px;
@@ -68,4 +71,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
+    color: #ffff;
+}
+
+
+.col-4{
+    color: #ffff;
 }
