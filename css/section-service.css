@@ -56,11 +56,11 @@
     gap: 2rem;
 }
 
-.menu-list-row-up, .menu-list-row-mid{
+.menu-list-row-up, .menu-list-row-mid, .menu-list-row-down{
     display: flex;
     justify-content: center;
-    gap: 2.5rem;
-    width: 65%;
+    gap: 0.5rem;
+    width: 70%;
 }
 .col-img img{
     border-radius: 240px;
@@ -73,9 +73,18 @@
     justify-content: center;
     text-align: left;
     color: #ffff;
+    padding-left: 0.5rem;
+}
+.col-2 h3{
+    font-size: 16px;
+}
+.col-2 p{
+    font-size: 14px;
+    color: grey;
+    font-weight: bold   ;
 }
 
-
 .col-4{
-    color: #ffff;
+    color: orange;
+    padding-right: 2rem;
 }
